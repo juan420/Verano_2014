@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+body {
+	background:url(../image/fc-80-fondos_informaticos_7jhqm.jpg);
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	text-align: justify;
+	
+}
+
+.encabezado{
+	
+	width: 800px;
+	
+	background:url(../image/fondo-naranja.jpg);
+	background-repeat:no-repeat
+	margin-top: 10;
+	margin-right: auto;
+	margin-bottom: 10;
+	margin-left: auto;
+	
+	}
+	
+.encabezado h1 {
+	color:rgba(153,153,153,1);
+	font-size:38px;
+	letter-spacing: 0.3em;
+	text-align: center;
+	margin: 0px;
+	padding-top: 60px;
+}
+.contenido {
+	width: 800px;
+	height:1500px;
+	background:url(../image/1208503318_f.jpg);
+	margin-top: 10;
+	margin-right: auto;
+	margin-bottom: 10;
+	margin-left: auto;
+	border: 1px solid #d3d3d3;
+}
+
+	
+
+
+
+	
+

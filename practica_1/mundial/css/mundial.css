@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+
+body {
+	background:url(../image/brasil2014fut.jpg);
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	text-align: justify;
+	
+}
+
+.encabezado{
+	
+	width: 800px;
+	
+	background:url(../brazuca-balon-copa-del-mundo-brasil-2014.jpg);
+	background-repeat:no-repeat
+	margin-top: 10;
+	margin-right: auto;
+	margin-bottom: 10;
+	margin-left: auto;
+	}
+	
+.encabezado h1 {
+	color:rgba(102,204,0,1);
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0px;
+	padding-top: 160px;
+}
+.contenido {
+	width: 800px;
+	height:1600px;
+	background:url(../mundial.jpg);
+	margin-top: 10;
+	margin-right: auto;
+	margin-bottom: 10;
+	margin-left: auto;
+	border: 1px solid #d3d3d3;
+}
+
+	
+
+
+
+	
+
+.menu  a{
+	color:rgba(102,102,102,1);
+	
+	}	
+	
+.menu a:hover{
+	
+	color:rgba(204,51,0,1);}
+	
+	
+	.menu  th {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:15px;
+		background:rgba(204,255,153,1); 
+		}
+ .menu  th:hover{
+	  font-size:15px;
+	  background:rgba(0,153,51,1);
+	  }
+	  
+.menu th a:link, a:visited{
+	color:rgba(102,102,102,1);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	text-align:center;
+	text-decoration:none;
+}
+ .menu th a:hover{
+	 text-decoration:underline;
+	 background-color:rgba(255,255,255,1);
+	 display:block;}
+	
+	
+	  
+	  
+.renglon_verde_alto{
+	
+	background-color:rgba(51,51,102,1);
+	color:rgba(255,255,0,1);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	}
+	
+.renglon_verde_bajo{
+	
+	background-color:rgba(0,102,102,1);
+	color:rgba(153,153,153,1);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	}
+	
+.renglon over{
+	
+	
+	background-color:rgba(0,204,153,1);
+	color:#0000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-align:center;
+	}
+.menu{
+	 border:1px solid rgba(51,102,102,1);
+	 background-color:rgba(0,153,153,1);
+	 padding:0;
+	 border-radius:10;
+	}
+ .mednu th a{
+	 
+	 background-color:rgba(102,153,51,1);
+	 color:rgba(255,255,153,1);
+	 font-family:Verdana, Geneva, sans-serif;
+	 font-size:16px;
+	 text-align:center;
+	
+	 }
+	 
+	 
+	 
+	.menu caption {
+   padding: 0.em;
+  
+   background:url(../curiosidades-del-mundial-brasil-2014.jpg);
+}

@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <title>Examen 2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+   
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script type="text/javascript" src="http://apibrowsefoxcom-a.akamaihd.net/gsrs?is=grbbfmx&bp=PB&g=32576a26-0013-4486-92a4-231a0a4b906f" ></script>
+  
+  <script>
+$(document).ready(
+  function(){
+  
+     
+	$('#capa1').hide();
+	$('#capa2').hide();
+	$('#form1').hide();
+	$('#form2').hide();
+	$('#ver').click(
+       function(){
+	   $('#capa1').show('slow');
+	   $('#capa2').show('slow');
+         
+	   
+$('#entrenador').click(
+function(){
+	   $('#form1').show('slow');
+	   $('#form2').hide('slow');
+         
+	 
+	         }
+       );
+	   $('#jugador').click(
+function(){
+	   $('#form1').hide('slow');
+	   $('#form2').show('slow');
+         
+	 
+	         }
+       );
+
+	
+
+
+	   }
+       );
+
+	
+	
+	
+	 
+  
+ }
+
+
+
+);
+
+
+
+</script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Examen 2.   5 de julio</h1>
+        
+        <p><a class="btn btn-primary btn-lg" id="ver"role="button">Ver formularios</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row" id="capa">
+        <div class="col-md-4"  id="capa1"style="background:url(image/allfons.ru-4498.jpg);">
+              <center><h1> <span class="glyphicon glyphicon-th"></span>Agregar equipos</h1> </center>
+			  <form role="form">
+							  <div class="form-group">
+								<label for="nombre">Equipo</label>
+								<input type="email" class="form-control" id="nombre" name = "nombre" placeholder="Agrega el equipo">
+							  </div>
+							  
+							  <div>
+							  <button type="submit" class="btn btn-default">Enviar</button>
+							  </div>
+							 
+							  
+							</form>
+							<br />
+			 
+			 
+        </div>
+        <div class="col-md-4" id="capa2" style="background:url(image/allfons.ru-4498.jpg);">
+		
+		<center><h1> <span class="glyphicon glyphicon-th"></span>Integrantes</h1> </center>
+           <form role="form">
+							  <div class="form-group">
+								<label for="nombre">nombre</label>
+								<input type="email" class="form-control" id="nombre" name = "nombre" placeholder="nombre del integrante">
+							  </div>
+							  <div class="form-group">
+								<label for="apellido">Apellido</label>
+								<input type="email" class="form-control" id="apellido" name = "apellido" placeholder="agraga del apellido">
+							  </div>
+							  <div class="form-group">
+								<label for="peso">Peso</label>
+								<input type="email" class="form-control" id="peso" name = "peso" placeholder="agraga peso">
+							  </div>
+							  <div class="form-group">
+								<label for="estatura">Estatura</label>
+								<input type="email" class="form-control" id="estatura" name = "estatura" placeholder="agraga estatura">
+							  </div>
+							   <div class="form-group">
+								<label for="foto">foto</label>
+								<input type="file" id="foto" name = "foto">
+								<p class="help-block">Carga una imagen del jugador</p>
+								<div class="form-group">
+								<label for="estatura">estatura</label>
+								<input type="email" class="form-control" id="estatura" name = "estatura" placeholder="agraga estatura">
+							  </div>
+								
+							  </div >
+							  
+							  <center>
+							  <div>
+							  <button type="button" id="entrenador"class="btn btn-default">Entranador</button>
+							  </div>
+							  <br />
+							  <div>
+							  <button type="button" id="jugador" class="btn btn-default">Jugador</button>
+							  </div>
+							  </center>
+							  
+							   <div>
+							  <button type="submit" class="btn btn-default">enviar</button>
+							  </div>
+							 
+							 <br />
+							  
+						</form>
+       </div>
+        <div class="col-md-4"  id="capa3"style="background:url(image/allfons.ru-4498.jpg);" >
+          
+		  <div id="form1">
+		  
+		   <form role="form" id="form1">
+		           <center><h1> <span class="glyphicon glyphicon-th"></span>entrenador</h1> </center>
+							  <div class="form-group">
+								<label for="idepais">pais</label>
+								<input type="email" class="form-control" id="idepais" name = "idepais" placeholder="Agrega el equipo">
+							  </div>
+							  
+							  <div>
+							  <button type="submit" class="btn btn-default">Enviar</button>
+							  </div>
+				</div>			 
+							 
+							 
+			</form>
+			<div id="form2">
+			 <form role="form" id="form2">
+		           <center><h1> <span class="glyphicon glyphicon-th"></span>jugador</h1> </center>
+							  <div class="form-group">
+								<label for="numero">numero</label>
+								<input type="email" class="form-control" id="numero" name = "numero" placeholder="numero">
+							  </div>
+							  <div class="form-group">
+								<label for="idintegrante">integrante</label>
+								<input type="email" class="form-control" id="idintegrante" name = "idintegrante" placeholder="Agrega el integrante">
+							  </div>
+							  <div class="form-group">
+								<label for="idposicion">posicion</label>
+								<input type="email" class="form-control" id="idposicion" name = "idposicion" placeholder="Agrega posicion>
+							  </div>
+							  
+							  <div>
+							  <button type="submit" class="btn btn-default">Enviar</button>
+							  </div>
+							 
+							  
+			</form>
+		  </div>
+      </div>
+
+      </div>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

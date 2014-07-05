@@ -9,36 +9,48 @@ $(document).ready(
   function(){
   
      //alert('Hola bebe');
-	 alert($('#elemento1').css('fontSize'));
-	 $('#elemento1').css({ 'fontSize' : '100px', 'color' : 'red' });
-	 alert($('#elemento1').css('fontSize'));
-	 $('#elemento1').hide('slow');
+	// alert($('#elemento1').css('fontSize'));
+	// $('#elemento1').css({ 'fontSize' : '100px', 'color' : 'red' });
+	 //alert($('#elemento1').css('fontSize'));
+	// $('#elemento1').hide('slow');
 	 $('#elemento1').addClass('big');
 	 $('#elemento1').show('slow');
+	
 	 $('#elemento1').click(
         function esconder(){
+		   $(this).css({ 'fontSize' : '100px', 'color' : 'red' });
+		   
+		 }	 
+		                  );
+     
+	  $('#elemento5').slideUp;
+	  $('#elemento6').slideDown;
+	  $('#elemento7').width('50px'); 
+	  $('#elemento8').fadeIn(300);
+	  $('#elemento9').fadeIn(300);
+	  $('#elemento10').fadeIn(300);
+	  
+	
+
+	$('.titulo').click(
+        function esconder()
+		 {
 		   $(this).hide('slow');
 		   
-		  
-		
-		
-			}	 
-		 
-		 
+		 }	 
+		                  );
+						  
+						  
 	 
-	   );
+		 
 	$('#boton').click(
-      function(){
-      alert(parseFloat($('#input1').val()) + parseFloat($('#input2').val()));
-	  
-	  }
- );
-
-	 
-	 
+       function(){
+         alert(parseFloat($('#input1').val()) + parseFloat($('#input2').val()));
+	    }
+       );
 
   
-  }
+ }
 
 
 
@@ -51,10 +63,55 @@ $(document).ready(
 </head>
 
 <body>
-   <div id="container" class= "elemento2">
+   <div id="container" class= "elemento">
    
       <h1 id="titulo"> 
-       <p class="parrafo" id="elemento1">  olis mil </p>
+       <p class="parrafo" id="elemento1"> hola</p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento2">  olis mil </p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento3">  hola k hace </p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento4">  perdio colombia </p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento5"> argentina</p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento6">  brasil </p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento7">  elemento7 </p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento8">  olis mil </p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento9">  olis mil </p>
+	   
+
+	  </h1>
+      <h1 id="titulo"> 
+       <p class="parrafo" id="elemento10">  olis mil </p>
 	   
 
 	  </h1>

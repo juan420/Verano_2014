@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Equipo</title>
+    <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-datetimepicker.css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +24,7 @@
   
      <div class="container">
     	<div class="row">
-  				<center><h1> <span class="glyphicon glyphicon-th"></span>Agregar equipos</h1> </center>
+  				<center><h1> <span class="glyphicon glyphicon-th"></span>Agregar posici&oacute;n </h1> </center>
     	</div>
 		<div class="row">
         	<div class="col-md-3">
@@ -33,10 +34,13 @@
             <br />
          						    <form role="form">
 							  <div class="form-group">
-								<label for="nombre">Equipo</label>
-								<input type="email" class="form-control" id="nombre" name = "nombre" placeholder="Agrega el equipo">
+								<label for="nombre">Nombre</label>
+								<input type="email" class="form-control" id="nombre" name = "nombre" placeholder="Posicion">
 							  </div>
-							  
+							  <div class="form-group">
+								<label for="abreviatura">Abraviatura</label>
+								<input type="email" class="form-control" id="abreviatura" name = "abreviatura" placeholder="Ingresa abreviatura">
+							  </div>
 							  <div>
 							  <button type="submit" class="btn btn-default">Enviar</button>
 							  </div>
@@ -50,12 +54,36 @@
             		
         	</div>
         </div>
-        
+         <!-- calendario -->
+         
+         <label> fecha </label>
+         
+
+       
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+ 
 	</div>
  
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+   
+	<script  src="js/bootstrap.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/bootstrap-datetimepicker.js"></script>
+    <script  src="js/bootstrap-datetimepicker.ru.js"></script>
+	
   </body>
 </html>
